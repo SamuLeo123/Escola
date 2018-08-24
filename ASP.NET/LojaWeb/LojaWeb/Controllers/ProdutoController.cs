@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 
 namespace LojaWeb.Controllers
 {
@@ -17,14 +18,35 @@ namespace LojaWeb.Controllers
         }
 
         public ActionResult FormProd() {
+            CategoriaProdutoDAO dao = new CategoriaProdutoDAO();
+            ViewBag.cat = dao.ListarCategorias();
+            ViewBag.Produto = new Produto();
+            ViewBag.Class = null;
             return View();
         }
 
         [HttpPostAttribute]
         public ActionResult Adicionar(Produto produto) {
-            ProdutoDAO dao = new ProdutoDAO();
-            dao.Adicionar(produto);
-            return View();
+            int idSUV = 1;
+            if (produto.CategoriaID.Equals(idSUV) && produto.Preco < 20000)
+            {
+                ModelState.AddModelError("produto.SUVValor", "SUV deve custar mais de R$20.000");
+            }
+            if (ModelState.IsValid)
+            {
+                ProdutoDAO dao = new ProdutoDAO();
+                dao.Adicionar(produto);
+                return View();
+            }
+            else
+            {
+                CategoriaProdutoDAO dao = new CategoriaProdutoDAO();
+                ViewBag.cat = dao.ListarCategorias();
+                ViewBag.Class = "alert alert-info";
+                return View("FormProd"); /*Caso use este precisa da lista*/
+                //return RedirectToAction("FormProd");
+            }
+
         }
 
         public ActionResult Buscar()

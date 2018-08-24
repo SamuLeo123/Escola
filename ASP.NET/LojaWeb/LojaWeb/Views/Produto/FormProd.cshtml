@@ -34,17 +34,31 @@
                     <input type="text" name="produto.Nome" />
                     <label for="Descricao">Descrição: </label>
                     <input type="text" id="descricao" name="produto.Descricao" />
+
                     <br />
                     <label for="Preco">Preço: </label>
                     <input type="number" id="preco" name="produto.Preco" />
                     <br />
                     <label for="Quantidade">Quantidade: </label>
                     <input type="text" id="quantidade" name="produto.Quantidade" />
-                    <label for="CategoriaId">Id da Categoria: </label>
-                    <input type="number" id="categoriaid" name="produto.CategoriaID" />
-                    <br />
-                    <input id="submit" type="submit" value="Cadastrar" />
-                </form>
+                    <label for="CategoriaID">Categoria: </label>
+                    <select id="produto.CategoriaId" name="produto.CategoriaID">
+                        <option value="value">
+                            @foreach (var c in ViewBag.Cat)
+                            {
+                            <option value="@c.Id"> @c.Nome</option>
+                        }
+                        </select>
+                        <br />
+                        <input id="submit" type="submit" value="Cadastrar" />
+
+                        <br />
+                        <div class="@ViewBag.Class" role="alert">
+                            @Html.ValidationMessage("Produto.Nome")<br />
+                            @Html.ValidationMessage("Produto.Descricao")<br />
+                            @Html.ValidationMessage("Produto.SUVValor")<br />
+                        </div>
+                    </form>
                 <br /><br /><br /><br />
                 <form action="/Produto/Buscar" method="post">
                     <h2>Buscar Todos os Produtos</h2>
