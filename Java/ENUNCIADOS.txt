@@ -50,8 +50,8 @@ aparecera a mensagem "Cartão Cancelado".
    para descobrir a distância.
 
 6) Crie uma classe que receba 4 valores qualquer  e mostre a média entre eles, o somatório
- e o resto da divisão do somatório com cada um dos
-   valores. 
+ e o resto da divisão do somatório com cada um dos valores. 
+
 7) Método com retorno - Faça um programa que calcule e apresente a área total de uma residência.
    O usuário deverá fornecer o nome do cômodo, a largura e o comprimento e em seguida apresentar 
    a área desse cômodo. O programa deverá apresentar uma mensagem ao usuário se este quer conti-
