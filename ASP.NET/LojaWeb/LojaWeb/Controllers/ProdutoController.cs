@@ -18,11 +18,13 @@ namespace LojaWeb.Controllers
         }
 
         public ActionResult FormProd() {
+            //ProdutoDAO pdao = new ProdutoDAO();
+            //IList<Produto> produtos = pdao.ListarProduto();
             CategoriaProdutoDAO dao = new CategoriaProdutoDAO();
             ViewBag.cat = dao.ListarCategorias();
             ViewBag.Produto = new Produto();
             ViewBag.Class = null;
-            return View();
+            return View(/*produtos*/);
         }
 
         [HttpPostAttribute]
@@ -42,7 +44,8 @@ namespace LojaWeb.Controllers
             {
                 CategoriaProdutoDAO dao = new CategoriaProdutoDAO();
                 ViewBag.cat = dao.ListarCategorias();
-                ViewBag.Class = "alert alert-info";
+                ViewBag.Class = "alert alert-danger";
+                ViewBag.Produto = produto;
                 return View("FormProd"); /*Caso use este precisa da lista*/
                 //return RedirectToAction("FormProd");
             }
@@ -55,6 +58,14 @@ namespace LojaWeb.Controllers
             IList<Produto> produtos = dao.ListarProduto();
             ViewBag.produtos = produtos;
             return View();
+        }
+
+        public ActionResult Visualiza(int id)
+        {
+            ProdutoDAO dao = new ProdutoDAO();
+            Produto prod = dao.BuscaId(id);
+            ViewBag.Produto = prod;
+            return View(/*prod*/);
         }
 
         public ActionResult Editar(int id)

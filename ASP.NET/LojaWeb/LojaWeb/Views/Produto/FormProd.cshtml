@@ -6,11 +6,11 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <title>FormProd</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormProd</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
     <body>
         <ul class="nav nav-tabs" id="navId">
             <li class="nav-item">
@@ -31,29 +31,30 @@
             <div>
                 <form action="/Produto/Adicionar" method="post">
                     <label for="Nome">Nome: </label>
-                    <input type="text" name="produto.Nome" />
+                    <input type="text" name="produto.Nome" value="@ViewBag.Produto.Nome"/>
                     <label for="Descricao">Descrição: </label>
-                    <input type="text" id="descricao" name="produto.Descricao" />
+                    <input type="text" id="descricao" name="produto.Descricao" value="@ViewBag.Produto.Descricao"/>
 
                     <br />
                     <label for="Preco">Preço: </label>
-                    <input type="number" id="preco" name="produto.Preco" />
+                    <input type="number" id="preco" name="produto.Preco" value="@ViewBag.Produto.Preco"/>
                     <br />
                     <label for="Quantidade">Quantidade: </label>
-                    <input type="text" id="quantidade" name="produto.Quantidade" />
+                    <input type="text" id="quantidade" name="produto.Quantidade" value="@ViewBag.Produto.Quantidade"/>
                     <label for="CategoriaID">Categoria: </label>
                     <select id="produto.CategoriaId" name="produto.CategoriaID">
                         <option value="value">
                             @foreach (var c in ViewBag.Cat)
                             {
-                            <option value="@c.Id"> @c.Nome</option>
+                            <option value="@c.Id" selected="@c.Id.Equals(ViewBag.Produto.CategoriaID)"> @c.Nome</option>
                         }
                         </select>
                         <br />
                         <input id="submit" type="submit" value="Cadastrar" />
 
                         <br />
-                        <div class="@ViewBag.Class" role="alert">
+                        <br />
+                        <div class="@ViewBag.Class" style="width:80%;" role="alert">
                             @Html.ValidationMessage("Produto.Nome")<br />
                             @Html.ValidationMessage("Produto.Descricao")<br />
                             @Html.ValidationMessage("Produto.SUVValor")<br />

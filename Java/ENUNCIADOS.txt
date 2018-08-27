@@ -1,0 +1,89 @@
+PAUFINO VEM KI NOOIZ KEBRA
+
+Exercícios:
+
+1) Crie um programa que receba o valor de um produto e um código de desconto que deverá ser 
+calculado conforme tabela: SCANNER
+				
+			1  =  5%	
+			2  =  10%
+ 			3  =  20%
+			4  =  50%
+
+
+2) Crie um programa que receba 2 números e uma letra. A letra será correspondente à operação 
+desejada confrome tabela: DATAINPUTSTREAM
+
+ 			A - Soma
+ 			B - Subtração
+ 			C - Multiplicação
+ 			D - Divisão
+
+3) Faça uma classe que receba um número inteiro referente à idade de alguém, e retorne a 
+mensagem de acordo com a tabela: GRÁFICO
+
+			0 - 2 = Bebê
+			3 - 11  = Criança
+			12 - 19 = Adolescente
+			20 - 30 = Jovem
+			31 - 60 = Adulto
+			61 - 61+ = Idoso
+
+* Cada um deve ter uma das opções:
+ - DataInputStream;
+ - Scanner;
+ - Gráfico; 
+
+4) Fazer um programa que leia a senha "JAVA". Caso o usuário erre a senha, ele tem direito 
+a mais 3 tentativos, mostrando a mensagem
+  "Senha Incorreta". Se o usuário errar na 3° tentativa, 
+aparecera a mensagem "Cartão Cancelado".
+
+5) Um ciclista criou um aparelho que marca quantas voltas a roda da sua bicicleta dá em um
+ determinado percurso. Com o uso desse aparelho 
+   é possível descobrir a distância percorrida desde que, o raio do pneu da bicicleta seja
+ conhecido. Faça uma classe que calcule a distância
+   percorrida, em que se deve fornecer a quantidade de voltas que a roda dá e o diâmetro da
+ roda em metros. Para saber o comprimento da roda
+   a partir do diâmetro fornecido, use a fórmula: Comprimento = (Pi x Diâmetro)/2. Sabendo
+ o comprimento basta multiplicá-lo pelo número de voltas
+   para descobrir a distância.
+
+6) Crie uma classe que receba 4 valores qualquer  e mostre a média entre eles, o somatório
+ e o resto da divisão do somatório com cada um dos
+   valores. 
+7) Método com retorno - Faça um programa que calcule e apresente a área total de uma residência.
+   O usuário deverá fornecer o nome do cômodo, a largura e o comprimento e em seguida apresentar 
+   a área desse cômodo. O programa deverá apresentar uma mensagem ao usuário se este quer conti-
+   nuar calculando, se a resposta for negativa, apresentar a área total acumulada. 
+
+8) Método sem retorno - Faça um programa que apresente a série fibonacci até o seu 15º termo.
+ Esta
+   série é formada por: 
+	1
+	1
+	2
+	3
+	5
+	8
+	ETC..
+
+   Esta série é caracterizada pela soma do número posterior com o seu anterior.
+
+9) Em uma eleição sindical, 4 pessoas se candidataram ao cargo de presidente. Durante a apuração
+ dos dados, foram computados votos nulos, brancos e válidos para cada candidato. Criar um programa que efetue a eleição e ao final apresente:
+
+	*O total de eleitores (considerando os votos válidos);
+	*O total de votos em branco;
+	*O total de votos nulos;
+	*A porcentagem de votos (válidos de cada candidato);
+	*Quem é o vencedor;
+Método com retorno e com parâmetro;
+
+10) Crie uma classe que simule promoções diárias.
+
+11) Elabore uma classe que mostre na tela os dias que uma pessoa viveu, para isso a classe deve receber a data de nascimento com ela é possível
+realizar o cálculo do número de milissegundos.
+Um dia vale: 86400000
+
+12) Construa uma classe que verifica se a classe digitada pelo usuário é válida ou não.
