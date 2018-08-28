@@ -138,10 +138,10 @@ public class Exercicio9 extends JFrame implements ActionListener{
     
     double pl,ps,pd,psl;
     public String PorcVenc(){
-        pl = vl/vtt;
-        ps = vs/vtt;
-        pd = vd/vtt;
-        psl = vsl/vtt;
+        pl = (vl/vtt)*100;
+        ps = (vs/vtt)*100;
+        pd = (vd/vtt)*100;
+        psl = (vsl/vtt)*100;
         if(vl == vs && vl == vd && vl == vsl){
             return "Empate";
         }
