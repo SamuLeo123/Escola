@@ -1,0 +1,48 @@
+﻿
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Form</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div>
+        <br /><br />
+        <center class="position-relative">
+            <form action="/Produto/Adicionar">
+                <div class="row  col-4" >
+                    <div class="col">
+                        <input id="Nome" name="produto.Nome" placeholder="Nome do Produto" class="form-control" /><br />
+                    </div>
+                    <div class="col ">
+                        <input id="Descricao" name="produto.Descricao" placeholder="Descrição do Produto" class="form-control" />
+                    </div>                  
+                </div>
+                <div class="row  col-4">
+                    <div class="col">
+                        <input id="Preco" name="produto.Preco" placeholder="Preço do Produto" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <input id="Quantidade" name="produto.Quantidade" placeholder="Quantidade em Estoque" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <input id="Fabricante" name="produto.Fabricante" placeholder="Nome do Fabricante" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <input type="submit" class="btn btn-primary" value="Cadastrar" />
+                    </div>
+                </div>
+            </form>
+        </center>
+    </div>
+</body>
+</html>
