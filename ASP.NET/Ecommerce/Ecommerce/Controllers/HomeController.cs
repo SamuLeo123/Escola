@@ -48,5 +48,10 @@ namespace Ecommerce.Controllers
             Session["_NomeUser"] = "";
             return RedirectToAction("Index");
         }
+
+        public ActionResult Relatorio()
+        {
+            return View();
+        }
     }
 }

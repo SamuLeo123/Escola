@@ -24,6 +24,11 @@ namespace Ecommerce.DAO
             return context.Clientes.FirstOrDefault(c => c.CPF == cpf);
         }
 
+        public IList<Cliente> BuscarClisCPF(int cpf)
+        {
+            return context.Clientes.Where(c => c.CPF == cpf).ToList();
+        }
+
         public void Atualizar()
         {
             context.SaveChanges();

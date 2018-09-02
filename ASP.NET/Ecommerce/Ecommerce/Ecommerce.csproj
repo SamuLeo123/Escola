@@ -237,6 +237,9 @@
     <Content Include="Views\ProdutoVenda\Listar.cshtml" />
     <Content Include="Views\Produto\Detalhes.cshtml" />
     <Content Include="Views\Funcionario\Detalhes.cshtml" />
+    <Content Include="Views\Cliente\Detalhes.cshtml" />
+    <Content Include="Views\ProdutoVenda\Carrinho.cshtml" />
+    <Content Include="Views\ProdutoVenda\Confirmar.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

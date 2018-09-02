@@ -14,8 +14,8 @@
         <div class="row col-6">
             <label class="m-lg-auto">Id Funcionário:</label>
             <input readonly value="@Session["_Id"].ToString()" class="form-control m-lg-auto" />
-            <label class="m-lg-auto">CPF Cliente:</label>
-            <input value="" class="form-control m-lg-auto" />
+            @*<label class="m-lg-auto">CPF Cliente:</label>
+            <input value="" class="form-control m-lg-auto" />*@
         </div>
     </center>
     <br /><br />
@@ -48,6 +48,8 @@
                     }
                 </tbody>
             </table>
+
+            <form method="post" action="../ProdutoVenda/Carrinho"><input type="submit" value="Conferir Carrinho" class="btn btn-success" /></form>
         </center>
     </div>
 

@@ -1,0 +1,23 @@
+﻿
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Confirmar</title>
+</head>
+<body>
+    <center>
+        <div style="width:80%">
+            <h1>Venda Finalizada</h1>
+            <h2>Id Funcionário: @Session["_Id"] - Nome: @ViewBag.Func.Nome</h2>
+            <h2>CPF do Cliente: @ViewBag.Cli.CPF - Nome: @ViewBag.Cli.Nome</h2>
+            <h2>Preço Total: R$@ViewBag.Pt</h2>
+        </div>
+    </center>
+    
+</body>
+</html>

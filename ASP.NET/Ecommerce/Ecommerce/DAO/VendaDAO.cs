@@ -30,6 +30,11 @@ namespace Ecommerce.DAO
             return context.Vendas.FirstOrDefault(u => u.Id == id);
         }
 
+        public Venda BuscarVenda(int CPF, int IdFunc)
+        {
+            return context.Vendas.LastOrDefault(v => v.ClienteId == CPF && v.FuncionarioId == IdFunc);
+        }
+
         public IList<Venda> Listar()
         {
             return context.Vendas.ToList();
