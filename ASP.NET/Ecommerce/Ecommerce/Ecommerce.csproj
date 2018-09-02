@@ -274,15 +274,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20180831235509_FirstMigration.cs" />
-    <Compile Include="Migrations\20180831235509_FirstMigration.designer.cs">
-      <DependentUpon>20180831235509_FirstMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20180902230003_FirstMigration.cs" />
+    <Compile Include="Migrations\20180902230003_FirstMigration.designer.cs">
+      <DependentUpon>20180902230003_FirstMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20180902160318_LoginFunc.cs" />
-    <Compile Include="Migrations\20180902160318_LoginFunc.designer.cs">
-      <DependentUpon>20180902160318_LoginFunc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\EntidadesContextModelSnapshot.cs" />
+    <Compile Include="Migrations\EntityContextModelSnapshot.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\EntityContext.cs" />
     <Compile Include="Models\Funcionario.cs" />

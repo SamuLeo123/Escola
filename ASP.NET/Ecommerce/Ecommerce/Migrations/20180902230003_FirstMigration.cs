@@ -14,12 +14,12 @@ namespace Ecommerce.Migrations
                 columns: table => new
                 {
                     CPF = table.Column<int>(nullable: false)
-                        /*.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.)*/,
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     DataCriacao = table.Column<DateTime>(nullable: false),
-                    Email = table.Column<string>(nullable: true),
-                    Endereco = table.Column<string>(nullable: true),
-                    Nome = table.Column<string>(nullable: true),
-                    NumTel = table.Column<string>(nullable: true)
+                    Email = table.Column<string>(nullable: false),
+                    Endereco = table.Column<string>(nullable: false),
+                    Nome = table.Column<string>(nullable: false),
+                    NumTel = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,11 +32,12 @@ namespace Ecommerce.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     DataCriacao = table.Column<DateTime>(nullable: false),
-                    Email = table.Column<string>(nullable: true),
-                    Endereco = table.Column<string>(nullable: true),
-                    Nome = table.Column<string>(nullable: true),
-                    NumTel = table.Column<string>(nullable: true),
-                    Senha = table.Column<string>(nullable: true)
+                    Email = table.Column<string>(nullable: false),
+                    Endereco = table.Column<string>(nullable: false),
+                    Login = table.Column<string>(nullable: false),
+                    Nome = table.Column<string>(nullable: false),
+                    NumTel = table.Column<string>(nullable: false),
+                    Senha = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,9 +49,9 @@ namespace Ecommerce.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Descricao = table.Column<string>(nullable: true),
-                    Fabricante = table.Column<string>(nullable: true),
-                    Nome = table.Column<string>(nullable: true),
+                    Descricao = table.Column<string>(nullable: false),
+                    Fabricante = table.Column<string>(nullable: false),
+                    Nome = table.Column<string>(nullable: false),
                     Preco = table.Column<double>(nullable: false),
                     Quantidade = table.Column<int>(nullable: false)
                 },
@@ -91,7 +92,6 @@ namespace Ecommerce.Migrations
                 {
                     ProdutoId = table.Column<int>(nullable: false),
                     VendaId = table.Column<int>(nullable: false),
-                    Id = table.Column<int>(nullable: false),
                     Quantidade = table.Column<double>(nullable: false)
                 },
                 constraints: table =>

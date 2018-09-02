@@ -8,8 +8,8 @@ using Ecommerce.Models;
 namespace Ecommerce.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20180902160318_LoginFunc")]
-    partial class LoginFunc
+    [Migration("20180902230003_FirstMigration")]
+    partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,13 +24,17 @@ namespace Ecommerce.Migrations
 
                     b.Property<DateTime>("DataCriacao");
 
-                    b.Property<string>("Email");
+                    b.Property<string>("Email")
+                        .IsRequired();
 
-                    b.Property<string>("Endereco");
+                    b.Property<string>("Endereco")
+                        .IsRequired();
 
-                    b.Property<string>("Nome");
+                    b.Property<string>("Nome")
+                        .IsRequired();
 
-                    b.Property<string>("NumTel");
+                    b.Property<string>("NumTel")
+                        .IsRequired();
 
                     b.HasKey("CPF");
                 });
@@ -42,17 +46,29 @@ namespace Ecommerce.Migrations
 
                     b.Property<DateTime>("DataCriacao");
 
-                    b.Property<string>("Email");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasAnnotation("MaxLength", 100);
 
-                    b.Property<string>("Endereco");
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasAnnotation("MaxLength", 100);
 
-                    b.Property<string>("Login");
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasAnnotation("MaxLength", 25);
 
-                    b.Property<string>("Nome");
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasAnnotation("MaxLength", 100);
 
-                    b.Property<string>("NumTel");
+                    b.Property<string>("NumTel")
+                        .IsRequired()
+                        .HasAnnotation("MaxLength", 15);
 
-                    b.Property<string>("Senha");
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasAnnotation("MaxLength", 25);
 
                     b.HasKey("Id");
                 });
@@ -86,8 +102,6 @@ namespace Ecommerce.Migrations
                     b.Property<int>("ProdutoId");
 
                     b.Property<int>("VendaId");
-
-                    b.Property<int>("Id");
 
                     b.Property<double>("Quantidade");
 

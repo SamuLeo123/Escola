@@ -7,7 +7,6 @@ namespace Ecommerce.Models
 {
     public class ProdutoVenda
     {
-        public int Id { get; set; }
         public double Quantidade { get; set; }
         public virtual Venda Vendas { get; set; }
         public int VendaId { get; set; }

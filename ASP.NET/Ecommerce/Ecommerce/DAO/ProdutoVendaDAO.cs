@@ -21,11 +21,6 @@ namespace Ecommerce.DAO
             return context.ProdutoVenda.ToList();
         }
 
-        public ProdutoVenda BuscarPorId(int id)
-        {
-            return context.ProdutoVenda.FirstOrDefault(pv => pv.Id == id);
-        }
-
         public void Atualizar()
         {
             context.SaveChanges();
