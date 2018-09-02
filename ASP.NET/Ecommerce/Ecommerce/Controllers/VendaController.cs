@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ecommerce.DAO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,13 @@ namespace Ecommerce.Controllers
         // GET: Venda
         public ActionResult Index()
         {
+            return View();
+        }
+
+        public ActionResult Form()
+        {
+            ProdutoDAO pdao = new ProdutoDAO();
+            ViewBag.Prods = pdao.ProdutoToList();
             return View();
         }
     }

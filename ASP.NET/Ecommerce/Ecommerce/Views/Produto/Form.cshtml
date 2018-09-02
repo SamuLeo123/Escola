@@ -14,35 +14,52 @@
 
     <div>
         <br /><br />
-        <center class="position-relative">
-            <form action="/Produto/Adicionar">
-                <div class="row  col-4" >
-                    <div class="col">
-                        <input id="Nome" name="produto.Nome" placeholder="Nome do Produto" class="form-control" /><br />
-                    </div>
-                    <div class="col ">
-                        <input id="Descricao" name="produto.Descricao" placeholder="Descrição do Produto" class="form-control" />
-                    </div>                  
-                </div>
-                <div class="row  col-4">
-                    <div class="col">
-                        <input id="Preco" name="produto.Preco" placeholder="Preço do Produto" class="form-control" />
-                    </div>
-                    <div class="col">
-                        <input id="Quantidade" name="produto.Quantidade" placeholder="Quantidade em Estoque" class="form-control" />
-                    </div>
-                    <div class="col">
-                        <input id="Fabricante" name="produto.Fabricante" placeholder="Nome do Fabricante" class="form-control" />
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="col">
-                        <input type="submit" class="btn btn-primary" value="Cadastrar" />
-                    </div>
-                </div>
-            </form>
-        </center>
+              <center class="position-relative">
+                      <form action="/Produto/Adicionar" method="post">
+                          <div class="row  col-4">
+                              <div class="col">
+                                  <label for="Nome">Nome:</label>
+                                  <input id="Nome" name="produto.Nome" value="@ViewBag.Produto.Nome" placeholder="Nome do Produto" class="form-control" /><br />
+                              </div>
+                              <div class="col ">
+                                  <label for="Descricao">Descrição:</label>
+                                  <input id="Descricao" name="produto.Descricao" value="@ViewBag.Produto.Descricao" placeholder="Descrição do Produto" class="form-control" />
+                              </div>
+                          </div>
+                          <div class="row  col-4">
+                              <div class="col">
+                                  <label for="Preco">Preço:</label>
+                                  <input id="Preco" name="produto.Preco" value="@ViewBag.Produto.Preco" placeholder="Preço do Produto" class="form-control" />
+                              </div>
+                              <div class="col">
+                                  <label for="Quantidade">Quantidade:</label>
+                                  <input id="Quantidade" name="produto.Quantidade" value="@ViewBag.Produto.Quantidade" placeholder="Quantidade em Estoque" class="form-control" />
+                              </div>
+                              <div class="col">
+                                  <label for="Fabricante">Fabricante:</label>
+                                  <input id="Fabricante" name="produto.Fabricante" value="@ViewBag.Produto.Fabricante" placeholder="Nome do Fabricante" class="form-control" />
+                              </div>
+                          </div>
+                          <br />
+                          <div class="row">
+                              <div class="col">
+                                  <input type="submit" class="btn btn-primary" value="Cadastrar" />
+                              </div>
+                          </div>
+                      </form>
+                  <br />
+                  <div class="@ViewBag.Class" style="width:80%;" role="alert">
+                      @Html.ValidationMessage("Produto.Nome")<br />
+                      @Html.ValidationMessage("Produto.Descricao")<br />
+                      @Html.ValidationMessage("Produto.Preco")<br />
+                      @Html.ValidationMessage("Produto.Quantidade")<br />
+                      @Html.ValidationMessage("Produto.Fabricante")<br />
+                  </div>
+                  <br /><br />
+                    <form action="/Produto/Listar">
+                        <input type="submit" class="btn btn-primary btn-lg btn-block" value="Listar Produtos" />
+                    </form>
+              </center>
     </div>
 </body>
 </html>

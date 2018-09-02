@@ -40,5 +40,26 @@ namespace Ecommerce.DAO
             context.Funcionarios.Remove(f);
             Atualizar();
         }
+
+        public Funcionario Login(Funcionario func)
+        {
+            try
+            {
+                Funcionario funcionario = context.Funcionarios.FirstOrDefault(f => f.Login == func.Login && f.Senha == func.Senha);
+                if (funcionario == null)
+                {
+                    return funcionario;
+                }
+                else
+                {
+                    return funcionario;
+                }
+            }          
+            catch (Exception)
+            {
+                Funcionario f = new Funcionario();
+                return f;
+            }
+        }
     }
 }

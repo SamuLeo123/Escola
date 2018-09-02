@@ -1,0 +1,67 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Listar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12 order-md-1 mb-12">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-muted">Seu carrinho</span>
+                <span class="badge badge-secondary badge-pill">
+                    @ViewBag.C.Count
+                </span>
+            </h4>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th> Nome </th>
+                    <th> Preço </th>
+                    <th> Quantidade </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in ViewBag.C)
+                {
+                    <tr>
+                        <td>
+                            @c.Nome
+                        </td>
+                        <td class="align-middle"> @c.Produtos.Preco </td>
+                        <td class="align-middle"> <input type="number" name="i" min="1" max="any" step="1" value="@c.Quantidade" class="form-control"> </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between">
+                <span>Total</span>
+                <strong>@ViewBag.Prec</strong>
+            </li>
+        </ul>
+        <br>
+        <form class="card p-2">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="CPF do Cliente">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">Finalizar compra</button>
+                </div>
+            </div>
+        </form>
+        <br>
+        <form action="" method="post">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Continuar comprando</button>
+        </form>
+
+    </div>
+</body>
+</html>

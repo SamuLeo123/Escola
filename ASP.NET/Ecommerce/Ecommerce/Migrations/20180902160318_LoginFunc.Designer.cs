@@ -8,9 +8,10 @@ using Ecommerce.Models;
 namespace Ecommerce.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    partial class EntidadesContextModelSnapshot : ModelSnapshot
+    [Migration("20180902160318_LoginFunc")]
+    partial class LoginFunc
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.0-rc1-16348")
