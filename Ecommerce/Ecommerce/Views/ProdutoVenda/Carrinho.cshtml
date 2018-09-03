@@ -1,0 +1,85 @@
+﻿
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Carrinho</title>
+</head>
+<body>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id Produto</th>
+                <th>Nome Produto</th>
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Preço Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var pv in ViewBag.Carr)
+            {
+                foreach(var p in ViewBag.Prods)
+                {
+                    if (pv.ProdutoId == p.Id)
+                    {
+                        <tr>
+                            <td>@p.Id</td>
+                            <td>@p.Nome</td>
+                            <td>@pv.Quantidade</td>
+                            <td>@p.Preco</td>
+                            <td>@(p.Preco * pv.Quantidade)</td>
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+
+    </table>
+    <center>
+        <h2>Preço Total: R$@ViewBag.Prec</h2>
+    </center><br /><br /><br /><br />
+    
+
+    <center>
+        <form method="post" action="/ProdutoVenda/BuscarCPF">
+            <div class="row col-3">
+                <div class="col">
+                    <label>CPF do Cliente:</label>
+                </div>
+                <div class="col">
+                    <input class="form-control" name="Id"/>
+                </div>
+                <div class="col">
+                    <input type="submit" class="btn btn-success" value="Buscar"/>
+                </div>
+            </div><br /><br />
+        </form>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>CPF</th>
+                    <th>Nome</th>
+                    <th>Confirmar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in ViewBag.Clientes)
+                {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Nome</td>
+                    <td>@Html.ActionLink("Confirmar", "Confirmar", new { Id = c.Id, Ptotal = ViewBag.Prec})</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </center>
+
+
+</body>
+</html>
