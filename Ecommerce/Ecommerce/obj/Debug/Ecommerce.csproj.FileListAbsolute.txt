@@ -1,230 +1,113 @@
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Ecommerce.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Ecommerce.pdb
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\csc.exe
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\csc.exe.config
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\csc.rsp
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\csi.exe
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\csi.exe.config
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\csi.rsp
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.AppContext.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Console.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.Process.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.Compression.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.Pipes.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Claims.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Threading.Thread.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.ValueTuple.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XPath.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\vbc.exe.config
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\vbc.rsp
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Commands.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Core.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.MicrosoftSqlServer.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.Design.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.SqlServer.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.OptionsModel.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Primitives.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Remotion.Linq.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Collections.Immutable.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Interactive.Async.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Helpers.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Mvc.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Razor.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Deployment.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Razor.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Commands.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Core.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.MicrosoftSqlServer.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.Design.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.SqlServer.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Abstractions.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Memory.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Abstractions.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Binder.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.OptionsModel.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Primitives.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Remotion.Linq.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Collections.Immutable.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Interactive.Async.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Razor.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Deployment.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Razor.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Helpers.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\System.Web.Mvc.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
-C:\Users\3aetim\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csprojAssemblyReference.cache
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Ecommerce.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Ecommerce.pdb
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\csc.exe
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\csc.exe.config
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\csc.rsp
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\csi.exe
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\csi.exe.config
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\csi.rsp
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Win32.Primitives.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.AppContext.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Console.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.Process.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.IO.Compression.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.IO.Pipes.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.AccessControl.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.Claims.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Encoding.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Primitives.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Security.Principal.Windows.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Text.Encoding.CodePages.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Threading.Thread.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.ValueTuple.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Xml.ReaderWriter.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XmlDocument.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XPath.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XPath.XDocument.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\vbc.exe.config
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\vbc.rsp
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Commands.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Core.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.MicrosoftSqlServer.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Relational.Design.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Relational.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.SqlServer.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Abstractions.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Memory.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Abstractions.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Binder.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.Abstractions.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.OptionsModel.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Primitives.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Web.Infrastructure.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Remotion.Linq.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Collections.Immutable.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Diagnostics.DiagnosticSource.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Interactive.Async.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Helpers.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Mvc.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Razor.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Webpages.Deployment.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Webpages.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Webpages.Razor.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Commands.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Core.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.MicrosoftSqlServer.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Relational.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.Relational.Design.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\EntityFramework.SqlServer.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Abstractions.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Memory.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Abstractions.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Binder.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.Abstractions.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.OptionsModel.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Primitives.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Remotion.Linq.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Collections.Immutable.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Diagnostics.DiagnosticSource.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Interactive.Async.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Razor.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Webpages.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Webpages.Deployment.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Webpages.Razor.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Helpers.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\System.Web.Mvc.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csprojAssemblyReference.cache
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csprojAssemblyReference.cache
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Ecommerce.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\csc.exe.config
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\csc.rsp
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\csi.exe
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\csi.exe.config
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\csi.rsp
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.AppContext.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Console.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.Compression.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.IO.Pipes.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Claims.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.ValueTuple.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XPath.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\vbc.exe.config
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\vbc.rsp
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Commands.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Core.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.MicrosoftSqlServer.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.Design.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.SqlServer.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.OptionsModel.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Remotion.Linq.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Collections.Immutable.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Interactive.Async.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Helpers.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Mvc.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Razor.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Deployment.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Razor.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Commands.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Core.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.MicrosoftSqlServer.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.Relational.Design.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\EntityFramework.SqlServer.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.OptionsModel.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Remotion.Linq.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Collections.Immutable.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Interactive.Async.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Razor.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Deployment.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Webpages.Razor.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Helpers.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\System.Web.Mvc.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
+C:\Users\samhi\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb

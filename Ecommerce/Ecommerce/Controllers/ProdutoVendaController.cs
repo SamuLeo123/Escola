@@ -73,10 +73,10 @@ namespace Ecommerce.Controllers
             return View();
         }
 
-        public ActionResult BuscarCPF(int Id)
+        public ActionResult BuscarCPF(int CPF)
         {
             ClienteDAO cdao = new ClienteDAO();
-            IList<Cliente> c = cdao.BuscarClisCPF(Id);
+            IList<Cliente> c = cdao.BuscarClisCPF(CPF);
             if (c == null)
             {
                 RedirectToAction("Carrinho");

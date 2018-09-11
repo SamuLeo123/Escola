@@ -52,10 +52,10 @@ namespace Ecommerce.Controllers
 
         }
 
-        public ActionResult Detalhes(int id)
+        public ActionResult Detalhes(int CPF)
         {
             ClienteDAO dao = new ClienteDAO();
-            ViewBag.Cli = dao.BuscarCliCPF(id);
+            ViewBag.Cli = dao.BuscarCliCPF(CPF);
             return View();
         }
     }

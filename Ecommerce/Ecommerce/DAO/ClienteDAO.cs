@@ -26,7 +26,7 @@ namespace Ecommerce.DAO
 
         public IList<Cliente> BuscarClisCPF(int cpf)
         {
-            return context.Clientes.Where(c => c.Id == cpf).ToList();
+            return context.Clientes.Where(c => c.CPF == cpf).ToList();
         }
 
         public void Atualizar()

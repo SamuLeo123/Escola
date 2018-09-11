@@ -25,7 +25,7 @@ namespace Ecommerce.Controllers
             {
                 Session["_Id"] = f.Id;
                 Session["_User"] = f.Login;
-                Session["_NomeUser"] = "leleo";
+                Session["_NomeUser"] = f.Nome;
                 return RedirectToAction("HomePage");
             }
             else
