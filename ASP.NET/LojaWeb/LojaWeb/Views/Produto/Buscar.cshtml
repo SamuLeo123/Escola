@@ -1,4 +1,4 @@
-﻿@*@model IList<LojaWeb.Models.Produto>*@
+﻿@model IList<LojaWeb.Models.Produto>
 @{
     Layout = null;
 }
@@ -34,11 +34,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var prod in ViewBag.Produtos)
+                    @foreach (var prod in Model)
                     {
                         <tr style="text-align:center">
                             <td>@prod.Id</td>
-                            <td>@Html.ActionLink("Nome", "Visualiza", new { id = prod.Id })</td>
+                            <td>@Html.ActionLink(prod.Nome, "Visualiza", new { id = prod.Id })</td>
                             <td>@prod.Descricao</td>
                             <td>@prod.Preco</td>
                             <td>@prod.Quantidade</td>

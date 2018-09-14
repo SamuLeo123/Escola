@@ -17,16 +17,13 @@ namespace LojaWeb.Controllers
             return View();
         }
 
-        [Route("produtos", Name ="ListaProdutos")]
         public ActionResult FormProd() {
             ProdutoDAO pdao = new ProdutoDAO();
-            IList<Produto> produtos = pdao.ListarProduto();
-
             CategoriaProdutoDAO dao = new CategoriaProdutoDAO();
             ViewBag.cat = dao.ListarCategorias();
             ViewBag.Produto = new Produto();
             ViewBag.Class = null;
-            return View(produtos);
+            return View();
         }
 
         [HttpPostAttribute]
@@ -54,12 +51,13 @@ namespace LojaWeb.Controllers
 
         }
 
+        [Route("produtos", Name = "ListaProdutos")]
         public ActionResult Buscar()
         {
             ProdutoDAO dao = new ProdutoDAO();
             IList<Produto> produtos = dao.ListarProduto();
             ViewBag.produtos = produtos;
-            return View();
+            return View(produtos);
         }
 
         [Route("produtos/{id}", Name = "VisualizaProduto")]
