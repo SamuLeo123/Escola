@@ -14,10 +14,11 @@
     <div>
         Id : @ViewBag.Produto.Id<br />
         Nome : @ViewBag.Produto.Nome<br />
-        Categoria : @ViewBag.Produto.CategoriaId<br />
+        Categoria : @ViewBag.Produto.CategoriaID<br />
         Preco : @ViewBag.Produto.Preco<br />
         Descrição : @ViewBag.Produto.Descricao<br />
         Quantidade : @ViewBag.Produto.Quantidade<br />
+        @Html.RouteLink("Voltar para a Lista", "ListaProdutos")
     </div>
 </body>
 </html>
