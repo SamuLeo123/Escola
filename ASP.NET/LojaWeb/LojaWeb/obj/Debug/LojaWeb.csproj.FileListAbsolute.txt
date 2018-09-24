@@ -267,8 +267,8 @@ T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\bin\pt-br
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\bin\pt-br\System.Web.Webpages.Razor.resources.dll
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\bin\pt-br\System.Web.Helpers.resources.dll
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\bin\pt-br\System.Web.Mvc.resources.dll
-T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.CoreCompileInputs.cache
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csproj.CopyComplete
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.dll
 T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.pdb
+T:\Usuarios\INFORMATICA\3A ETIM\TurmaB\SamuLeo\ASP.NET\LojaWeb\LojaWeb\obj\Debug\LojaWeb.csprojAssemblyReference.cache
